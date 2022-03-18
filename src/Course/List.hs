@@ -321,7 +321,6 @@ produce ::
   -> a
   -> List a
 produce f x = x :. produce f (f x)
-produce f x = x :. produce f (f x)
 
 -- | Do anything other than reverse a list.
 -- Is it even possible?
